@@ -12,7 +12,7 @@ buildscript {
 
     dependencies {
         classpath("net.minecraftforge.gradle:ForgeGradle:5.+")
-        classpath("org.spongepowered:mixingradle:0.7-SNAPSHOT")
+        classpath("org.spongepowered:mixingradle:0.7.32")
     }
 }
 
@@ -72,7 +72,7 @@ dependencies {
     implementationAndLibrary("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementationAndLibrary("org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlinxCoroutineVersion")
 
-    implementationAndLibrary("org.spongepowered:mixin:0.7.11-SNAPSHOT") {
+    implementationAndLibrary("org.spongepowered:mixin:0.8.5" ) {
         exclude("commons-io")
         exclude("gson")
         exclude("guava")
